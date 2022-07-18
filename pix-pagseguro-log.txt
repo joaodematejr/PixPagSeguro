@@ -1,0 +1,112 @@
+*   Trying 100.25.208.214:443...
+* Connected to secure.sandbox.api.pagseguro.com (100.25.208.214) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: CN=secure.sandbox.api.pagseguro.com
+*  start date: Sep 26 00:00:00 2021 GMT
+*  expire date: Oct 24 23:59:59 2022 GMT
+*  issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon
+*  SSL certificate verify ok.
+> GET /instant-payments/pix/BXrULQJC1p5iqHyl3TOZxPgemIcYV07 HTTP/1.1
+Host: secure.sandbox.api.pagseguro.com
+Accept-Encoding: deflate, gzip
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+Accept: application/json, text/plain, */*
+Authorization: Bearer 2d62940e-4d3d-40cd-9638-26120d2de521da50976e4093af2dd9a32db696f4d5e83eb1-2913-45d6-8642-1a3d8cc9d9a5
+Expect: 100-continue
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 100 Continue
+* Signaling end of chunked upload via terminating chunk.
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 400 Bad Request
+< x-amzn-RequestId: a1236fa1-3da9-48aa-901b-7c43a1ff3371
+< x-amzn-Remapped-Connection: keep-alive
+< x-amz-apigw-id: Kp5G8FIRIAMFkDw=
+< x-amzn-Remapped-Date: Mon, 20 Dec 2021 15:33:00 GMT
+< content-type: application/json
+< content-length: 569
+< date: Mon, 20 Dec 2021 15:32:59 GMT
+< 
+* Connection #0 to host secure.sandbox.api.pagseguro.com left intact
+*   Trying 100.25.208.214:443...
+* Connected to secure.sandbox.api.pagseguro.com (100.25.208.214) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: CN=secure.sandbox.api.pagseguro.com
+*  start date: Sep 26 00:00:00 2021 GMT
+*  expire date: Oct 24 23:59:59 2022 GMT
+*  issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon
+*  SSL certificate verify ok.
+> GET /instant-payments/pix/BXrULQJC1p5iqHyl3TOZxPgemIcYV07 HTTP/1.1
+Host: secure.sandbox.api.pagseguro.com
+Accept-Encoding: deflate, gzip
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+Accept: application/json, text/plain, */*
+Authorization: Bearer 2d62940e-4d3d-40cd-9638-26120d2de521da50976e4093af2dd9a32db696f4d5e83eb1-2913-45d6-8642-1a3d8cc9d9a5
+Expect: 100-continue
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 100 Continue
+* Signaling end of chunked upload via terminating chunk.
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 400 Bad Request
+< x-amzn-RequestId: a59b121f-63f4-4320-9116-8c57d3832a9e
+< x-amzn-Remapped-Connection: keep-alive
+< x-amz-apigw-id: Kp5IrG9aoAMFwIg=
+< x-amzn-Remapped-Date: Mon, 20 Dec 2021 15:33:11 GMT
+< content-type: application/json
+< content-length: 569
+< date: Mon, 20 Dec 2021 15:33:10 GMT
+< 
+* Connection #0 to host secure.sandbox.api.pagseguro.com left intact
+*   Trying 54.146.47.24:443...
+* Connected to secure.sandbox.api.pagseguro.com (54.146.47.24) port 443 (#0)
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*   CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: CN=secure.sandbox.api.pagseguro.com
+*  start date: Sep 26 00:00:00 2021 GMT
+*  expire date: Oct 24 23:59:59 2022 GMT
+*  issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon
+*  SSL certificate verify ok.
+> PUT /instant-payments/pix/bed142280db64835939c26315fb378e4/devolucao/BXrULQJC1p5iqHyl3TOZxPgemIcYV07 HTTP/1.1
+Host: secure.sandbox.api.pagseguro.com
+Accept-Encoding: deflate, gzip
+Content-Type: application/json; charset=utf-8
+cache-control: no-cache
+Accept: application/json, text/plain, */*
+Authorization: Bearer 2d62940e-4d3d-40cd-9638-26120d2de521da50976e4093af2dd9a32db696f4d5e83eb1-2913-45d6-8642-1a3d8cc9d9a5
+Content-Length: 18
+
+* upload completely sent off: 18 out of 18 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 201 Created
+< x-amzn-RequestId: 78c95033-9901-4e04-ad0a-642bba723338
+< x-amzn-Remapped-Content-Length: 184
+< x-amzn-Remapped-Connection: keep-alive
+< x-amz-apigw-id: Kp63uHPIoAMF2Uw=
+< x-amzn-Remapped-Date: Mon, 20 Dec 2021 15:45:02 GMT
+< content-type: application/json
+< content-length: 184
+< date: Mon, 20 Dec 2021 15:45:02 GMT
+< 
+* Connection #0 to host secure.sandbox.api.pagseguro.com left intact
